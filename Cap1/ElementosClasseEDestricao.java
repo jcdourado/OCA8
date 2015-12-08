@@ -1,4 +1,8 @@
 public class ElementosClasseEDestricao{
+
+	int x;
+	{ int i; } // ele nao funciona fora daqui!!!!
+
 	// primeiro deve-se publicar o package (se tiver ele é obrigatorio em primeiro)
 	// depois os imports (obrigatorio logo apos o package)
 	// depois a classe
@@ -21,13 +25,15 @@ public class ElementosClasseEDestricao{
 		// O objeto sempre esta na heap, ele nunca é passado a um metodo ou retornado,
 		// ele que recebe o gc, e nao a referencia (esta que não muda de tamanho)
 
-	// um objeto so pode ser acessado por sua referencia
+	// um objeto so pode ser acessado por sua referencia, java nao possui ponteiro nem sobrecarga de operdores
 
-	// o metodo finalize() só pode ser chamado uma vez, e é o garbage que o chama, quando ele esta
+	// o metodo finalize() só pode ser chamado UMA VEZ, e é o garbage que o chama, quando ele esta
 	// elegivel para ter um fim!
 
 	public static void main(String... args){
 		ElementosClasseEDestricao e = new ElementosClasseEDestricao();
+		System.out.println(e.x);
+		System.out.println(e.i); // nao funciona!
 	}		
 
 	protected void finalize() {
