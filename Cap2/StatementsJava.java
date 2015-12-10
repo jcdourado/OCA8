@@ -22,19 +22,36 @@ public class StatementsJava{
 		// nao suporta boolean, long, float e double.
 		// ele executa ate encontrar um break nao importando o case
 		// os cases nao funcionam com variaveis
-		// apenas enums (se forem do mesmo tipo do switch), e finals
-		
-		
+		// apenas ENUM (se forem do mesmo tipo do switch), e FINAL
+		// TEM QUE SER DO MESMO TIPO DA VARIAVEL DO SWITCH		
+	
+	// While
+		// testa uma condicao e executa seu bloco de instrucoes
 
+	// Do-While
+		// é executado pelo menos uma vez e depois testa
+
+	// For
+		// Há dois tipos de for, o basico e o for each
+		// No basico:
+			// todos os campos sao opcionais, mas precisam do ( ; ;)
+			// Nao se pode declarar tipos diferentes na declaracao
+			// Ele declara novas variaveis caso já nao tenham sido	
+				// declaradas
+			// pode usar o incremento na declaracao mesmo!!!
+
+		// for each
+			// o objeto a ser percorrido pode ser um array ou implementar
+				// o lang.Iterable				
+		
 	public static void main(String args[]){
 		
-	int x = 0;
+	int x = 1;
+	for(x++; x < 10 ; x ++){
+		System.out.println(x);
+	}
+		System.out.println(x);
 	
-	switch(x){
-		case 1.0: break;
-		default: System.out.println("oi"); break;
-
-	}
-	}
+}
 	
 }
