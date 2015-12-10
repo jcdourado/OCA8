@@ -43,7 +43,12 @@ public class StatementsJava{
 		// for each
 			// o objeto a ser percorrido pode ser um array ou implementar
 				// o lang.Iterable				
+	// Label
+		// um identificador seguido de ":" que pode ser utilizado nos
+		// break (que para o loop atual, NAO USA EM IF) e
+		// continue (que retorna ao ultimo teste feito, NAO USA EM SWITCH)
 		
+
 	public static void main(String args[]){
 		
 	int x = 1;
