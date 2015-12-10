@@ -41,25 +41,30 @@ public class Operadores{
 	
 	// Operadores de atribuicao compostos:
 		// apenas cai += e -=
-		// ele da o cast AUTOMATICO para a variavel de atribuicao
+		// ele da o cast AUTOMATICO para a variavel de atribuicao		
 
+	// Operadores lógicos:
+		// &, | e ^(xor -> que transforma os diferentes em true)
 		
+	// Operadores de Short-circuit
+		// && e || 
 		
+	// Operadores de equalidade
+		// há promoção em casos de diferencas entre tamanhos
+		// em casos de comparacao entre objetos, ele compara onde eles
+			// estao apontando(se é ao mesmo alvo)
 
 	// short x = 10;
 	// short y = 3;
 	// short z = (short) (x * y);
-	
-	int x = 9;
-	int z = 2;
-	{ z *= x * 3; }
 	
 	// int x = 9;
 	// int y = -(x);
 
 	public static void main(String... args){
 		Operadores e = new Operadores();
-		System.out.println(e.z);
+		System.out.println(e.y);
+		System.out.println(e.x);
 	}
 
 }
