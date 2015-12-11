@@ -63,8 +63,8 @@ public class Operadores{
 
 	public static void main(String... args){
 		Operadores e = new Operadores();
-		System.out.println(e.y);
-		System.out.println(e.x);
+		int x = 0;
+		System.out.println(x++ +" "+ x +" "+ ++x);
 	}
 
 }
