@@ -13,5 +13,29 @@ public class HerancaClasses{
 	
 	// Estaticos:
 		// Se tem static na da mae, tem que ter na filha
+		// A ordem pode ser qualquer!!
+	
+	// Ao chamar metodos estaticos, cada um chama da sua classe
+	// Ao chamar metodos normais, ele executa como se fosse um só na filha!!
 
+	// Abstract:
+		// um metodo nao pode ser marcado como private e abstract!1
+	
+	// Interface:
+		// pode ter abstract tanto no nome quanto nos metodos
+		// o mesmo pra variaveis estaticas
+		// nao tem finals, protecteds, privates
+		// PODE EXTENDER DE MULTIPLAS INTERFACES
+		// Aplica as mesmas regras de overLoading
+
+		// as variaveis dele sao OBRIGATORIAMENTE:
+			// publicas, estaticas e finais!!!, se declarar uma modificacao
+			// precisa declarar TODAS!!!
+
+		// foi implementado um novo tipo de metodo:
+			// default: ele existe para todas as classes que implementam
+			// a interface, se elas nao o reescrevem, nao da erro,
+			// ele a executa!
+
+		
 }
