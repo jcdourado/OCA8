@@ -29,13 +29,19 @@ public class HerancaClasses{
 		// Aplica as mesmas regras de overLoading
 
 		// as variaveis dele sao OBRIGATORIAMENTE:
-			// publicas, estaticas e finais!!!, se declarar uma modificacao
-			// precisa declarar TODAS!!!
+			// publicas, estaticas e finais!!
 
 		// foi implementado um novo tipo de metodo:
 			// default: ele existe para todas as classes que implementam
 			// a interface, se elas nao o reescrevem, nao da erro,
 			// ele a executa!
+	
+			// Nao pode ser estatico, final ou abstrato
+			// Nao pode ser protected ou private
+			// ele chama o default por interface.super.metod();
 
-		
+		// Metodos estaticos:
+			// nao pode colocar private ou protected		
+			// Nao pode ser sobrescrito
+			
 }
