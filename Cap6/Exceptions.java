@@ -3,7 +3,7 @@ public class Exceptions{
 	
 	// RuntimeExceptions == unchecked exceptions
 	// Exception e todas suas subclasses, exceto a de cima == checked exceptions
-	// Erros == estao fora do nosso controle, nao se pode fazer nda
+	// Erros == estao fora do nosso controle, MAS PODE-SE DAR HANDLE!!
 
 	// Precisa dos {}
 	// try nao precisa de um catch, mas se nao o tiver, tem q ter o finally
